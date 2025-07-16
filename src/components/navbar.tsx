@@ -1,16 +1,22 @@
-export default function Navbar(){
-    return(
+import Link from "next/link";
+
+export default function Navbar() {
+    return (
         <>
-        <nav>
-            <ul>
-                <li ><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#project">PROJECT</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
+            <nav className="bg-sky-500 place-items-end">
+                <ul>
+                    <Link href="/home" className="px-6">HOME</Link>
+                    <Link href="/about" className="px-6">ABOUT</Link>
+                    <Link href="/project" className="px-6">PROJECT</Link>
+                    <Link href="/contact" className="px-6">CONTACT</Link>
+                </ul>
+                
+            </nav>
+            <div className="bg-sky-700 h-40">
+                    <h2>my self subham </h2>
+                   
+                </div>
         </>
-        
+
     )
 }
-    

@@ -25,22 +25,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul{
-  color:antiquewhite;
-  display:flex;
-}
-li{
-  padding:10px;
-  margin:left;
-  row-gap: 6px;
-}
-h3{
-  color:rgb(234, 232, 229);
-  padding:4px;
-  row-gap:6px;
-  background-color:cornflowerblue;
 
-}
 .info{
   border:solid red;
   position:absolute;
